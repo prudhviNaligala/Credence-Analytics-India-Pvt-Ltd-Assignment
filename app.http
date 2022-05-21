@@ -1,0 +1,28 @@
+GET http://localhost:3000/details/
+
+###
+
+POST http://localhost:3000/details/
+Content-Type: application/json
+
+{
+    "name":"God Of War and mortal kombat",
+    "img" :"https://lh3.googleusercontent.com/OGQkzkYdfhAXE6p-xufS_6mB3MtjDfPM6HZPdDrX5uJ09Dh1vzLZ6YflPIduh2Jk-h7H",
+    "summary":"God of war was playstation game i used to play in my childhood with my friends"
+}
+
+###
+
+
+PUT http://localhost:3000/detail/
+Content-Type: application/json
+
+{
+    "name":"Prince Of persia",
+    "img":"https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?t=st=1653157500~exp=1653158100~hmac=75e4e790fef71d6f7b6b6a692b0f0465ed52d871b2e82d510d5ea8869ec500e4&w=1060",
+    "summary":"prince of perisa is a game an i have add an dummy data and dummy urls to Update thank you "
+}
+
+###
+
+DELETE http://localhost:3000/detail/God/
